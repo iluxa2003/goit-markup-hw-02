@@ -5,6 +5,7 @@
     --dark_gray-color:#2F303A;
     --light-gray-color: #F5F4FA;
     --white-color:#FFFFFF;
+    --r-g-b-a:rgba(255, 255, 255, 0.6);
 }
 body{
     color: var(--main-color);
@@ -106,7 +107,7 @@ section h2{
 }
 
 .footer__inner li a{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--r-g-b-a);
 }
 .address__block p{
     line-height: 1.71;
